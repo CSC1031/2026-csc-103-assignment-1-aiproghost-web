@@ -46,5 +46,19 @@ int main()
         printf("\nResult: FAIL\n");
     }
 
+    if (mathematics>science && mathematics>english)
+        printf("\nYou get highest marks for mathematics\n");
+    else if (science>mathematics&& science >english)
+        printf("\nYou get highest marks for science\n");
+
+    else if (english>mathematics && english > science)
+        printf("\nYou get highest marks for English\n");
+    else {
+        printf("\nYou get same marks for some subjects \n");
+    }
+
+
+
+
     return 0;
 }
